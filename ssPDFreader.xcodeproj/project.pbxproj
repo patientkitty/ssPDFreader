@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0EE6026206A470200533D06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EE6025206A470200533D06 /* AppDelegate.m */; };
+		F0EE6029206A470200533D06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EE6028206A470200533D06 /* ViewController.m */; };
+		F0EE602C206A470200533D06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0EE602A206A470200533D06 /* Main.storyboard */; };
+		F0EE602E206A470200533D06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0EE602D206A470200533D06 /* Assets.xcassets */; };
+		F0EE6031206A470200533D06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0EE602F206A470200533D06 /* LaunchScreen.storyboard */; };
+		F0EE6034206A470200533D06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EE6033206A470200533D06 /* main.m */; };
+		F0EE603E206A470300533D06 /* ssPDFreaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EE603D206A470300533D06 /* ssPDFreaderTests.m */; };
+		F0EE6049206A470300533D06 /* ssPDFreaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EE6048206A470300533D06 /* ssPDFreaderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0EE603A206A470300533D06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0EE6019206A470200533D06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0EE6020206A470200533D06;
+			remoteInfo = ssPDFreader;
+		};
+		F0EE6045206A470300533D06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0EE6019206A470200533D06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0EE6020206A470200533D06;
+			remoteInfo = ssPDFreader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0EE6021206A470200533D06 /* ssPDFreader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ssPDFreader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0EE6024206A470200533D06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0EE6025206A470200533D06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0EE6027206A470200533D06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0EE6028206A470200533D06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0EE602B206A470200533D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0EE602D206A470200533D06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0EE6030206A470200533D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0EE6032206A470200533D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0EE6033206A470200533D06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0EE6039206A470300533D06 /* ssPDFreaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ssPDFreaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0EE603D206A470300533D06 /* ssPDFreaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ssPDFreaderTests.m; sourceTree = "<group>"; };
+		F0EE603F206A470300533D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0EE6044206A470300533D06 /* ssPDFreaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ssPDFreaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0EE6048206A470300533D06 /* ssPDFreaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ssPDFreaderUITests.m; sourceTree = "<group>"; };
+		F0EE604A206A470300533D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0EE601E206A470200533D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0EE6036206A470300533D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0EE6041206A470300533D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0EE6018206A470200533D06 = {
+			isa = PBXGroup;
+			children = (
+				F0EE6023206A470200533D06 /* ssPDFreader */,
+				F0EE603C206A470300533D06 /* ssPDFreaderTests */,
+				F0EE6047206A470300533D06 /* ssPDFreaderUITests */,
+				F0EE6022206A470200533D06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0EE6022206A470200533D06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0EE6021206A470200533D06 /* ssPDFreader.app */,
+				F0EE6039206A470300533D06 /* ssPDFreaderTests.xctest */,
+				F0EE6044206A470300533D06 /* ssPDFreaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0EE6023206A470200533D06 /* ssPDFreader */ = {
+			isa = PBXGroup;
+			children = (
+				F0EE6024206A470200533D06 /* AppDelegate.h */,
+				F0EE6025206A470200533D06 /* AppDelegate.m */,
+				F0EE6027206A470200533D06 /* ViewController.h */,
+				F0EE6028206A470200533D06 /* ViewController.m */,
+				F0EE602A206A470200533D06 /* Main.storyboard */,
+				F0EE602D206A470200533D06 /* Assets.xcassets */,
+				F0EE602F206A470200533D06 /* LaunchScreen.storyboard */,
+				F0EE6032206A470200533D06 /* Info.plist */,
+				F0EE6033206A470200533D06 /* main.m */,
+			);
+			path = ssPDFreader;
+			sourceTree = "<group>";
+		};
+		F0EE603C206A470300533D06 /* ssPDFreaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0EE603D206A470300533D06 /* ssPDFreaderTests.m */,
+				F0EE603F206A470300533D06 /* Info.plist */,
+			);
+			path = ssPDFreaderTests;
+			sourceTree = "<group>";
+		};
+		F0EE6047206A470300533D06 /* ssPDFreaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0EE6048206A470300533D06 /* ssPDFreaderUITests.m */,
+				F0EE604A206A470300533D06 /* Info.plist */,
+			);
+			path = ssPDFreaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0EE6020206A470200533D06 /* ssPDFreader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0EE604D206A470300533D06 /* Build configuration list for PBXNativeTarget "ssPDFreader" */;
+			buildPhases = (
+				F0EE601D206A470200533D06 /* Sources */,
+				F0EE601E206A470200533D06 /* Frameworks */,
+				F0EE601F206A470200533D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ssPDFreader;
+			productName = ssPDFreader;
+			productReference = F0EE6021206A470200533D06 /* ssPDFreader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0EE6038206A470300533D06 /* ssPDFreaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0EE6050206A470300533D06 /* Build configuration list for PBXNativeTarget "ssPDFreaderTests" */;
+			buildPhases = (
+				F0EE6035206A470300533D06 /* Sources */,
+				F0EE6036206A470300533D06 /* Frameworks */,
+				F0EE6037206A470300533D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0EE603B206A470300533D06 /* PBXTargetDependency */,
+			);
+			name = ssPDFreaderTests;
+			productName = ssPDFreaderTests;
+			productReference = F0EE6039206A470300533D06 /* ssPDFreaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0EE6043206A470300533D06 /* ssPDFreaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0EE6053206A470300533D06 /* Build configuration list for PBXNativeTarget "ssPDFreaderUITests" */;
+			buildPhases = (
+				F0EE6040206A470300533D06 /* Sources */,
+				F0EE6041206A470300533D06 /* Frameworks */,
+				F0EE6042206A470300533D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0EE6046206A470300533D06 /* PBXTargetDependency */,
+			);
+			name = ssPDFreaderUITests;
+			productName = ssPDFreaderUITests;
+			productReference = F0EE6044206A470300533D06 /* ssPDFreaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0EE6019206A470200533D06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Zhifeng Shen";
+				TargetAttributes = {
+					F0EE6020206A470200533D06 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F0EE6038206A470300533D06 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0EE6020206A470200533D06;
+					};
+					F0EE6043206A470300533D06 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0EE6020206A470200533D06;
+					};
+				};
+			};
+			buildConfigurationList = F0EE601C206A470200533D06 /* Build configuration list for PBXProject "ssPDFreader" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0EE6018206A470200533D06;
+			productRefGroup = F0EE6022206A470200533D06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0EE6020206A470200533D06 /* ssPDFreader */,
+				F0EE6038206A470300533D06 /* ssPDFreaderTests */,
+				F0EE6043206A470300533D06 /* ssPDFreaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0EE601F206A470200533D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EE6031206A470200533D06 /* LaunchScreen.storyboard in Resources */,
+				F0EE602E206A470200533D06 /* Assets.xcassets in Resources */,
+				F0EE602C206A470200533D06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0EE6037206A470300533D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0EE6042206A470300533D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0EE601D206A470200533D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EE6029206A470200533D06 /* ViewController.m in Sources */,
+				F0EE6034206A470200533D06 /* main.m in Sources */,
+				F0EE6026206A470200533D06 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0EE6035206A470300533D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EE603E206A470300533D06 /* ssPDFreaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0EE6040206A470300533D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EE6049206A470300533D06 /* ssPDFreaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0EE603B206A470300533D06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0EE6020206A470200533D06 /* ssPDFreader */;
+			targetProxy = F0EE603A206A470300533D06 /* PBXContainerItemProxy */;
+		};
+		F0EE6046206A470300533D06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0EE6020206A470200533D06 /* ssPDFreader */;
+			targetProxy = F0EE6045206A470300533D06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0EE602A206A470200533D06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0EE602B206A470200533D06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0EE602F206A470200533D06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0EE6030206A470200533D06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0EE604B206A470300533D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0EE604C206A470300533D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0EE604E206A470300533D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ssPDFreader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss9545.ssPDFreader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0EE604F206A470300533D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ssPDFreader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss9545.ssPDFreader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0EE6051206A470300533D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ssPDFreaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss9545.ssPDFreaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ssPDFreader.app/ssPDFreader";
+			};
+			name = Debug;
+		};
+		F0EE6052206A470300533D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ssPDFreaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss9545.ssPDFreaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ssPDFreader.app/ssPDFreader";
+			};
+			name = Release;
+		};
+		F0EE6054206A470300533D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ssPDFreaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss9545.ssPDFreaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ssPDFreader;
+			};
+			name = Debug;
+		};
+		F0EE6055206A470300533D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ssPDFreaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ss9545.ssPDFreaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ssPDFreader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0EE601C206A470200533D06 /* Build configuration list for PBXProject "ssPDFreader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0EE604B206A470300533D06 /* Debug */,
+				F0EE604C206A470300533D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0EE604D206A470300533D06 /* Build configuration list for PBXNativeTarget "ssPDFreader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0EE604E206A470300533D06 /* Debug */,
+				F0EE604F206A470300533D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0EE6050206A470300533D06 /* Build configuration list for PBXNativeTarget "ssPDFreaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0EE6051206A470300533D06 /* Debug */,
+				F0EE6052206A470300533D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0EE6053206A470300533D06 /* Build configuration list for PBXNativeTarget "ssPDFreaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0EE6054206A470300533D06 /* Debug */,
+				F0EE6055206A470300533D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0EE6019206A470200533D06 /* Project object */;
+}
